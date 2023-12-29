@@ -26,6 +26,7 @@ html, body {
     margin: auto;
     border-radius: 10px;
     border: solid black 4px;
+    overflow: hidden;
 }
 
 .top {
@@ -68,17 +69,23 @@ h2 {
     padding: 20px;
     gap: 20px;
     flex-wrap: wrap;
+    margin-bottom: 6px;
+
+    
 }
+
+
 .bubble {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 40px;
+    height: 40px; 
+    width: 40px; 
     background-color: rgba(55, 201, 113, 0.819);
     border-radius: 50%;
-    font-size: 40px;
+    font-size: 1.2rem; 
 }
+
 
 .bubble:hover {
     cursor: pointer;
