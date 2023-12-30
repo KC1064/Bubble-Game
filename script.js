@@ -51,6 +51,15 @@
 
 // Optimised by ChatGPT
 
+function toggleContent() {
+    var event = document.getElementById("instructions");
+    if (event.style.display === "none") {
+        event.style.display = "block";
+    } else {
+        event.style.display = "none";
+    }
+}
+
 (function () {
     let timer = 50;
     let score = 0;
@@ -95,6 +104,9 @@
             hitmarker();
         }
     });
+    
+
+    
 
     window.addEventListener('resize', makebubble);
 

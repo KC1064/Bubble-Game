@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="instruction">
-        <p>i</p>
-    </div>
+    
     <div id="main">
         
         <div id="content">
             <div class="top">
+                <div class="key play_instructions">
+                <button class=" btn" onclick="toggleContent()">i</button>
+                <div id="instructions" style="display:none">
+                <h3>How to Play?</h3>
+                <ol>
+                    <li>Check the number in hit box</li>
+                    <li>Click on the same number</li>
+                    <li>Score as much as possible in 60 seconds</li>
+                </ol>
+            </div>
+            </div>
                 <div class="key"><h2>Hit</h2>
                     <div class="box hit">4</div>
                 </div>

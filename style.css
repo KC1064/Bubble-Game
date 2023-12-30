@@ -91,3 +91,24 @@ h2 {
     cursor: pointer;
     background-color: aqua;
 }
+
+.btn {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background-color: salmon;
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+.play_instructions{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.btn {
+    position: relative;
+    gap: 2px;
+}
